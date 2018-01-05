@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Calc</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <table class="calc">
+            <tr>
+                <td colspan="4">
+                    <input type="text" value="0" disabled class="calc-display" id="display">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn clear-btn" id="ce">ce</button>
+                </td>
+                <td>
+                    <button class="btn clear-btn" id="c">c</button>
+                </td>
+                <td>
+                    <button value="Деление;" class="btn operation">/</button>
+                </td>
+                <td>
+                    <button value="Умножение;" class="btn operation">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn numbers">7</button>
+                </td>
+                <td>
+                    <button class="btn numbers">8</button>
+                </td>
+                <td>
+                    <button class="btn numbers">9</button>
+                </td>
+                <td>
+                    <button value="Вычитание;" class="btn operation">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn numbers">4</button>
+                </td>
+                <td>
+                    <button class="btn numbers">5</button>
+                </td>
+                <td>
+                    <button class="btn numbers">6</button>
+                </td>
+                <td>
+                    <button value="Сложение;" class="btn operation">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn numbers">1</button>
+                </td>
+                <td>
+                    <button class="btn numbers">2</button>
+                </td>
+                <td>
+                    <button class="btn numbers">3</button>
+                </td>
+                <td rowspan="2">
+                    <button value="Результат." class="btn btn-equal operation" id="result">=</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn btn-null numbers">0</button>
+                </td>
+                <td>
+                    <button class="btn" id="decimal">.</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

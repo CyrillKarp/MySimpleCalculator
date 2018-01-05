@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Orbitron');
+@font-face {
+    font-family: 'digital7_mono';
+    src: url('../fonts/digital7_mono.eot');
+    src: url('../fonts/digital7_mono.eot') format('embedded-opentype'), url('../fonts/digital7_mono.woff2') format('woff2'), url('../fonts/digital7_mono.woff') format('woff'), url('../fonts/digital7_mono.ttf') format('truetype'), url('../fonts/digital7_mono.svg#digital7_mono') format('svg');
+}
+body {
+    font-size: 16px;
+    min-width: 320px;
+    line-height: 1.75;
+    overflow-x: hidden;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-image: linear-gradient(45deg, #b81d60 0%, #f9d669 100%);
+    height: auto;
+    padding: 1px 0;
+}
+.calc {
+    background: #f4f4f4;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin: calc(50vh - 258.5px) calc(50% - 218px);
+    float: none;
+}
+.calc td {
+    padding: 6px;
+}
+.calc-display {
+    font: 55px"digital7_mono", sans-serif;
+    width: 350px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #363636;
+    color: #fff;
+    margin-bottom: 35px;
+    text-align: right;
+}
+.calc-display:focus {
+    outline: none;
+}
+.btn {
+    font: 25px"Orbitron", sans-serif;
+    width: 85px;
+    height: 50px;
+    text-transform: uppercase;
+    background: #fcfcfc;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    color: #666;
+    padding: 0;
+    outline: 0;
+    transition: all .4s;
+}
+.btn-equal {
+    height: 112px;
+}
+.btn-null {
+    width: 185px;
+}
+.btn:hover {
+    color: #fcfcfc;
+    background: #d45757;
+    border-color: #d45757;
+    cursor: pointer;
+}
+.h1 {
+    font: 40px"Gabriela", sans-serif;
+    text-transform: capitalize;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 23.5vh 0 30px;
+}
